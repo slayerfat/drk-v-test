@@ -1,0 +1,12 @@
+<md-toolbar color="primary">
+  <span [routerLink]="['Index']">
+    {{ name }}
+  </span>
+  <span class="fill"></span>
+  <button md-button router-active [routerLink]="['Todo'] ">
+    Todo
+  </button>
+  <button md-button router-active [routerLink]="['About'] ">
+    About
+  </button>
+</md-toolbar>
